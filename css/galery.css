@@ -1,0 +1,43 @@
+.galeria{
+    background: rgb(134, 94, 184,0.5);
+    padding: 20px;
+    text-align: center;
+    
+}
+.galeria .row{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 4%;
+}
+.galeria .row .photo{
+    width: 100%;
+    max-height: 20%;
+    margin: 1%;
+    overflow: hidden;
+}
+.galeria .row .photo img{
+    width: calc(100% * 1);
+    height: 95%;
+}
+.galeria h3{
+    font-size: 1.7em;
+}
+.galeria .button{
+    font-size: 2.5em;
+    padding: 0.5%;
+}
+@media (max-width: 600px){
+    .galeria{
+        display: flex;
+        flex-direction: column;
+    }
+    #linha{
+        display: block;
+    }
+    .galeria .row{
+        width: 100%;
+        flex-direction: column;
+        overflow:hidden;
+        padding: 2px;
+    }
+}

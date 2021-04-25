@@ -1,0 +1,64 @@
+
+.menu {
+    display: flex;
+    place-content: flex-end;
+}
+.menu .lis-content {
+    border-bottom:5px double #FFF;
+    padding:3px;
+    border-top:5px double #FFF;
+}
+
+.colapseMenu{
+    display: grid;
+    place-content: flex-end;
+    background-color: #aeaeaead;
+    width: 20%;
+    position: absolute;
+    right: 5px;
+    padding-right: 2%;
+    padding-top: 0.5%;
+    border-radius: 10px;
+    border-bottom:5px double #FFF;
+    padding:3px;
+    border-top:5px double #FFF;
+}
+.colapseMenu .lis-content{
+    font-weight: bold;
+}
+.colapseMenu .lis-content:hover, 
+.lis-content:focus, .lis-content:active{
+    color: #000;
+}
+
+.displayNone{
+    display: none;
+}
+.displayNone a{
+    display: none;
+}
+.btn-drop{
+    background-color: blueviolet;
+    width: 80px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:#FFF;
+    border-radius: 10px;
+    border-style: none;
+
+}
+.btn-drop:hover, .btn-drop:focus{
+    background-color: #673ac0
+
+}
+@media (max-width:400px) {
+    .colapseMenu{
+        width: 50%;
+    }
+}
+@media (max-width:600px) {
+    .colapseMenu{
+        width: 40%;
+    }
+}

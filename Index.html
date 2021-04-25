@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/imports.css">
+    <!-- <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/svg.css">
+    <link rel="stylesheet" href="css/coment.css">
+    <link rel="stylesheet" href="css/galery.css">
+    <link rel="stylesheet" href="css/pacotes.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css"> -->
+    <title>SheepBike</title>
+</head>
+<!-- 8-3822000031653. -->
+<header>
+    <div class="logo">
+        <img src="img/sheeponbike_white.ico" alt="logo">
+        <h1>SheepBike</h1>
+    </div>
+    
+    <nav class="collapse-nav">
+        <button class="btn-drop displayNone" id="btn-dropdown" onclick="dropdow()"></button>
+        <div class="menu" id="Menu">
+            <a href="Index.html" class="lis-content" id="lis">Inicio</a>
+            <a href="about.html" class="lis-content" id="lis">Sobre</a>
+            <a href="galery.html" class="lis-content" id="lis">Galeria</a>
+            <a href="tournament.html" class="lis-content" id="lis">Competições</a>
+            <a href="#" class="lis-content" id="lis">Pacotes</a>
+            <a href="#" class="lis-content" id="lis">Contato</a>
+        </div>
+    </nav>
+</header>
+<body>
+    <!--BANNER-->
+    <div class="carousel-banner">
+        <!-- <img src="img/Amigos.jpg" alt="amigos no alto da trilha"> -->
+        <!-- <h3>Vá a lugares incriveis</h3> -->
+        <!-- <ul class="banner-list">
+            <li class="banner-item" id="banner-img">
+                <img src="img/Amigos.jpg" alt="amigos no alto da trilha">
+            </li>
+            <li class="banner-item" id="banner-img">
+                <img src="img/Amigos.jpg" alt="amigos no alto da trilha">
+            </li>
+            <li class="banner-item" id="banner-img">
+                <img src="img/Amigos.jpg" alt="amigos no alto da trilha">
+            </li>
+        </ul> -->
+    </div>
+    <div class="carousel-banner">
+        <!-- <img src="img/Amigos.jpg" alt="amigos no alto da trilha"> -->
+        <!-- <h3>Vá a lugares incriveis</h3> -->
+            <div class="banner-item" id="banner-img">
+                <img src="img/Amigos.jpg" alt="amigos no alto da trilha">
+            </div>
+            <div class="banner-item" id="banner-img">
+                <img src="img/por do sol.jpg" alt="amigos no alto da trilha">
+            </div>
+            <div class="banner-item" id="banner-img">
+                <img src="img/galeria/03.jpg" alt="amigos no alto da trilha">
+            </div>
+            <button class="btn-slide btn-prev" onclick="changeSlide(-1)">
+                &#10094;
+            </button>
+            <button class="btn-slide btn-next" onclick="changeSlide(1)">
+                &#10095;
+            </button>
+    </div>
+
+    <!--PREMIO-->
+    <div class="awards">
+        <h2>Trilhas premiadas</h2>
+        <div class="premio">
+                <!-- <svg class="trophy">
+                    <image class="" xlink:href="img/icones/trophy.svg"></image>
+                </svg> -->
+            <div class="trophy">
+                <!-- <img src="img/icones/trophy.svg" alt="trofeu"> -->
+                <object data="img/icones/trophy.svg" type=""></object>
+            </div>
+            <div id="titulos">
+                <h3>Trilha mais bela de 2020</h3>
+                <p>-Revista Vida de ciclista</p>
+                <h3>Melhor trilha para familia de Portugal 2019</h3>
+                <p>-Gajo de barro</p>
+                <h3>Melhor circuito de DownHill amador 2019 </h3>
+                <p>-Associação de ciclistas amigos da montanha</p>
+            </div>
+            <div class="certificate">
+                <!-- <img  src="img/icones/certificate.svg" > -->
+                <object data="img/icones/certificate.svg" type=""></object>
+            </div>
+            <!--div class="certificate">
+                <img src="img/icones/certificate.svg" alt="certificado">
+            </div-->
+        </div>
+        
+    </div>
+
+    <!--COMENTARIOS-->
+    <div class="cometarios">
+        <div class="com1">
+            <img src="img/clientes/Julia.jpg" alt=""/>
+            <strong>Julia Gonçalves</strong>
+            <p>
+                Não pedalava desde a
+                adolecencia e acabei
+                achando a SheepBike
+                enquanto procura o que
+                fazer nas férias, desde
+                então voltei a pedalar
+                todo fim de semana.
+            </p>
+        </div>
+        <div class="com1">
+            <img src="img/clientes/Gustavo.jpg" alt=""/>
+            <strong>Gustavo Rodrigues</strong>
+            <p>
+                Eu sempre pratiquei
+                ciclismo. A SheepBike me
+                ajuda a achar novos
+                lugares para pedalar.
+            </p>
+        </div>
+        <div class="com1">
+            <img src="img/clientes/Ana.jpg" alt=""/>
+            <strong>Ana Souza</strong>
+            <p>
+                Meus pais me
+                trouxeram nas férias e
+                eu gostei adorei andar
+                pelo caminho e
+                descansar no lago.
+            </p>
+        </div>
+    </div>
+
+    <!--GALERIA-->
+    <div class="galeria">
+        <h2>Galeria</h2>
+        <div id="linha">
+            <div class="row">
+                <div class="photo">
+                    <img src="img/galeria/10.jpg" alt=""/>
+                </div>
+                <div class="photo">
+                    <img src="img/galeria/03.jpg" alt=""/>
+                </div>
+                <div class="photo">
+                    <img src="img/galeria/13.jpg" alt=""/>
+                </div>
+                <div class="photo">
+                    <img src="img/galeria/07.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="photo">
+                    <img src="img/galeria/12.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="img/galeria/08.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="img/galeria/01.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="img/galeria/09.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+        <a class="button" href="#">
+            Galeria Completa
+        </a>
+
+    </div>
+
+    <!--CAMPEONATOS-->
+    <div class="campeonatos">
+        <h2>Nossos campeonatos</h2>
+        <div class="tournament_index">
+            <div class="content">
+                <h3>Que tal participar de um dos campeonatos organizados pela nossa equipe?</h3>
+                <h3>Trilhas com boas premiações</h3>
+                <h3>Campeonatos internacionais e nacionais</h3>
+                <h3>Equipe de suporte e medica</h3>
+            </div>
+            <div class="img">
+                <img src="img/trilha/trilha logo.jpg" alt="">
+            </div>
+        </div>
+        <div>
+            <a  class="button"href="#">
+                Saiba mais
+            </a>
+        </div>
+        
+    </div>
+
+    <!--TRILHAS-->
+    <div class="trilhas">
+    </div>
+
+    <!--PACOTES-->
+    <div class="pacotes">
+        <h2>Pacotes</h2>
+        <div>
+            <div class="pacote">
+                <h3>Iniciante</h3>
+                <ul>
+                    <li>
+                        Quer começar a fazer trilhas? Essas trilhas são para você
+                    </li>
+                    <li>
+                        Indicado para qualquer pessoa com idade acima de 5 anos
+                    </li>
+                    <li>
+                        Aproveite a paisagem durante as trilhas
+                    </li>
+                    <li>
+                        Trilhas com duração entre 30 minutos a 1 hora
+                    </li>
+                </ul>
+                <a class="button" href="#">
+                        TRILHAS
+                </a>
+            </div>
+            <div class="pacote" id="inter">
+                <h3>Intermediario</h3>
+                <ul>
+                    <li>
+                        Trilhas para quem ja pedala ha algum tempo
+                    </li>
+                    <li>
+                        Descidas mais íngremes do que trilhas iniciantes
+                    </li>
+                    <li>
+                        Aproveite as belas paisagens enquanto encara os desafios da descida
+                    </li>
+                    <li>
+                        Contem trilhas do nosso circuito amador
+                    </li>
+                    <li>
+                        As thilhas tem duranção media de 1 hora e meia cada
+                    </li>
+                </ul>
+                <a class="button" href="#">
+                        TRILHAS
+                </a>
+            </div>
+            <div class="pacote">
+                <h3>Avançado</h3>
+                <ul>
+                    <li>
+                        Trilha para quem quer um desafio
+                    </li>
+                    <li>
+                        Trilha para ciclistas experientes 
+                    </li>
+                    <li>
+                        Paissagem excepcional 
+                    </li>
+                    <li>
+                        Partes do nosso circuito de DownHill
+                    </li>
+                    <li>
+                        As thilhas tem suranção media de 2 horas
+                    </li>
+                </ul>
+                <a class="button" href="#">
+                        TRILHAS
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--CONTATO-->
+    <section class="contato">
+        <h2>Contato</h2>
+        <div class="row">
+            <form action="." method="get">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+                <label for="subject">Assunto</label>
+                <input type="text" id="subject" name="subject">
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                <button class="button">ENVIAR</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div id="logo">
+            <img id="logoImg" src="img/sheeponbike_white.ico" alt="">
+            <h3>SheepBike</h3>
+        </div>
+        <div class="redes">
+            <img src="img/redes/facebook.svg" alt="FAcebook">
+            <img src="img/redes/instagram.svg" alt="Instagram">
+            <img src="img/redes/twitter.svg" alt="Twitter">
+            <img src="img/redes/youtube.svg" alt="Youtube">
+        </div>
+    </footer>
+  </body>
+
+  <script src="js/collapseNav.js"></script>
+  <script src="js/bannerController.js"></script>
+  
+</html>

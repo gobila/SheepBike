@@ -1,0 +1,39 @@
+.about{
+width: 100%;
+background-color: rgba(252, 248, 248, 0.822);
+padding: 5% 0%;
+}
+.about article{
+    margin: auto;
+    padding: 20px 0px;
+    width: 80%;
+    display: flex;
+    place-items: center center;
+}
+
+.about article .title{
+    width: 25%;
+}
+.about article .text{
+    text-align: left;
+    width: 75%;
+    text-indent: 25px;
+    font-size: 1.15rem;
+}
+
+@media (max-width: 600px) {
+    .about article{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .about article .title{
+        width: 100%;
+        text-align: center;        
+    }
+    .about article .text{
+        width: 80%;
+        text-indent: 10px;
+        font-size: 1rem;
+    }
+}

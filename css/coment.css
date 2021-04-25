@@ -1,0 +1,52 @@
+.cometarios{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.cometarios::after{
+    content: "";
+    background-image: url(../img/por\ do\ sol.jpg);
+    opacity: 0.5;
+    background-size: calc(100%*1);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+.com1{
+    align-items: center;
+    display: -webkit-inline-flex;
+    flex-direction: column;
+    width: 33%;
+    margin: 3%;
+    text-align: center;
+    font-size: 1.02em;
+    /* background-color: rgba(255, 177, 8, 0.25); */
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 10%;
+    border: #000 transparent;
+    padding: 2%;
+}
+.com1 img{
+    margin: 2%;
+    width: 60%;
+    border-radius: 50%;
+}
+.com1 p{
+    text-align: left;
+    padding: 4%
+}
+@media (max-width: 600px){
+    .cometarios{
+        display: block;
+        width: 100%;
+        position: relative;
+        
+        text-align: center;
+    }
+    .com1{
+        width: 80%;
+    }
+}

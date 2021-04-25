@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/imports.css">
+    <link rel="stylesheet" href="css/about.css">
+    <title>SheepBike</title>
+</head>
+
+<header>
+    <div class="logo">
+        <img src="img/sheeponbike_white.ico" alt="logo">
+        <h1>SheepBike</h1>
+    </div>
+
+    <nav class="collapse-nav">
+        <button class="btn-drop displayNone" id="btn-dropdown" onclick="dropdow()"></button>
+        <div class="menu" id="Menu">
+            <a href="Index.html" class="lis-content" id="lis">Inicio</a>
+            <a href="about.html" class="lis-content" id="lis">Sobre</a>
+            <a href="galery.html" class="lis-content" id="lis">Galeria</a>
+            <a href="tournament.html" class="lis-content" id="lis">Competições</a>
+            <a href="#" class="lis-content" id="lis">Pacotes</a>
+            <a href="#" class="lis-content" id="lis">Contato</a>
+        </div>
+    </nav>
+</header>
+<body>
+
+    <!--ABOUT-->
+    <section class="about">
+        <article>
+            <div class="title">
+                <h2>Sobre</h2>
+            </div>
+            <div class="text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non 
+                    hendrerit arcu. Phasellus in condimentum nunc, id ultrices enim. In 
+                    hac habitasse platea dictumst. Etiam vitae velit molestie, scelerisque 
+                    felis semper, sollicitudin elit. Proin sed diam interdum, sodales magna 
+                    nec, elementum nibh. Aliquam dignissim diam nec tincidunt imperdiet. In 
+                    erat leo, tempus vel malesuada non, hendrerit eget arcu. Ut id commodo 
+                    eros, sit amet ullamcorper mauris. Etiam at accumsan velit, quis lobortis 
+                    risus. Aenean varius tempus pretium. Fusce bibendum nunc a tristique auctor. 
+                    In turpis nulla, lobortis id cursus in, luctus vel turpis. Sed tellus ipsum, 
+                    tincidunt et est eu, egestas eleifend nisi. Aliquam id iaculis dui, non consequat
+                     quam.
+                </p>
+                <p>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere 
+                    cubilia curae; Donec ac efficitur neque, et efficitur quam. Quisque iaculis, 
+                    dolor vel pharetra vestibulum, nisi nunc vehicula sem, eget cursus neque nibh 
+                    sollicitudin massa. Duis libero velit, egestas sit amet tortor sed, vulputate
+                    vestibulum arcu. Fusce molestie aliquam arcu sit amet finibus. Curabitur arcu
+                    neque, maximus eget lectus sed, accumsan cursus lectus. Integer lacinia 
+                    sollicitudin ex, nec rutrum urna varius eu. Suspendisse at metus non neque 
+                    semper venenatis quis vel ipsum. In eu sem interdum, luctus tortor nec, 
+                    elementum ante.
+                </p>
+                <p>
+                    Etiam vulputate libero nec lorem venenatis, et accumsan augue fringilla. 
+                    Aliquam pharetra vehicula tincidunt. Pellentesque sagittis mi sed vulputate 
+                    dignissim. Suspendisse venenatis pulvinar odio pharetra convallis. Mauris sed 
+                    imperdiet nisi. Integer sed arcu in est posuere mollis dignissim at ante. 
+                    Mauris malesuada at nibh sed rutrum. Phasellus fringilla sodales volutpat. 
+                    Proin eleifend suscipit convallis. Fusce molestie, magna et pulvinar interdum, 
+                    metus nisi vulputate dolor, at maximus orci nisl nec massa. Aliquam blandit nisl 
+                    vel tempus luctus. Aenean eu risus dictum, dictum purus eu, molestie augue. 
+                    Aliquam sed interdum mi, posuere aliquam lacus. 
+                </p>
+            </div>
+            
+        </article>
+    </section>
+
+    <!--CONTATO-->
+    <section class="contato">
+        <h2>Contato</h2>
+        <div class="row">
+            <form action="." method="get">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+                <label for="subject">Assunto</label>
+                <input type="text" id="subject" name="subject">
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                <button class="button">ENVIAR</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div id="logo">
+            <img id="logoImg" src="img/sheeponbike_white.ico" alt="">
+            <h3>SheepBike</h3>
+        </div>
+        <div class="redes">
+            <img src="img/redes/facebook.svg" alt="FAcebook">
+            <img src="img/redes/instagram.svg" alt="Instagram">
+            <img src="img/redes/twitter.svg" alt="Twitter">
+            <img src="img/redes/youtube.svg" alt="Youtube">
+        </div>
+    </footer>
+  </body>
+  
+  <script src="js/collapseNav.js"></script>
+  <script src="js/bannerController.js"></script>
+</html>

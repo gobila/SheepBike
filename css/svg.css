@@ -1,0 +1,22 @@
+/* mudando a cor de todos os svgs */
+#Capa_1{
+    fill:#FFFFFF;
+}
+.premio .trophy {
+    margin: 2%;
+    width: calc(100%*0.25);
+}
+.premio .trophy object{
+    width: 100%;
+    padding: 5%;
+    /*height: calc(100%*1.5);*/
+}
+.premio .certificate{
+    margin: 2%;
+    width: calc(100%*0.25);
+}
+.premio .certificate object{
+    width: 100%;
+    padding: 5%;
+    /*height: calc(100%*1.5);*/
+}

@@ -1,0 +1,77 @@
+.contato{
+    background-color: rgb(134, 94, 184,0.5);;
+    padding: 1%;
+}
+.contato h2{
+    text-align: center;
+    color:#FFF
+}
+.contato .row{
+    margin: 2%;
+    justify-content: center;
+}
+.contato form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.contato form label{
+    line-height: 1.7em;
+    font-size: initial;
+    color:#000;
+    font-weight: bolder;
+    margin-left: 2%;
+}
+.contato form input{
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    border-radius: 0px;
+    border: transparent;
+    padding-left: 2%;
+    font-size: 1em;
+    box-shadow: inset 0px 2px 0px #000000;
+}
+.contato form textarea{
+    width: 100%;
+    height: calc(100px*1.0);
+    border-radius: 0px;
+    border: transparent;
+    padding-left: 2%;
+    padding-top: 1%;
+    font-size: 1.2em;
+    box-shadow: inset 0px 2px 0px #000000;
+}
+.contato form button{
+    background-color: #6D91AC;
+    box-shadow: 0px 3px 0px #000000;
+    margin-top: 2%;
+    width: 50%;
+    height: 50px;
+    font-size: 1.2em;
+    color:#FFF;
+    border-radius: 10px;
+    border:0px;
+    margin: auto;
+    margin-top:5%;
+}
+.contato .button{
+    width: 25%;
+    margin-top:30px;
+    font-size: 1.5em;
+    padding: 0.5%;
+}
+.contato .button:hover{
+    box-shadow: 0px 2px #FFF;
+}
+@media (max-width: 600px){
+    .contato form label{
+        font-size: 1.2em;
+        margin-top:2%;
+    }
+    .contato .button{
+        width: 100%;
+        margin-top:30px;
+        font-size: 1.5em;
+        padding: 0.5%;
+    }
+}
